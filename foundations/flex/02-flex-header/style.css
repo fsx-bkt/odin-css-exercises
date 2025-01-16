@@ -1,6 +1,7 @@
 .header  {
   font-family: monospace;
   background: papayawhip;
+
 }
 
 .logo {
@@ -9,6 +10,7 @@
   color: tomato;
   background: white;
   padding: 4px 32px;
+  
 }
 
 ul {
@@ -22,4 +24,47 @@ a {
   padding: 8px;
   /* this removes the line under the links */
   text-decoration: none;
+}
+
+/* My changes */
+/* 
+.header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.left-links{
+  margin-right: auto;
+}
+
+.right-links{
+  margin-left: auto;
+}
+.logo{
+  margin: 10px; 
+}
+.ul{
+  padding: 0;
+  margin: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+} */
+
+/* SOLUTION */
+
+.header {
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 8px;
 }
