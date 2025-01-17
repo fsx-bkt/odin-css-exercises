@@ -24,3 +24,48 @@ img {
   justify-content: center;
   background: #eee;
 }
+/* My solution */
+.body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title{
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.plant-container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 52px;
+}
+
+.plant{
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+}
+/* 
+body {
+  text-align: center;
+}
+
+.title {
+  margin-bottom: 32px;
+}
+
+.plant-container {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+}
+
+.plant{
+  max-width: 200px;
+} */
